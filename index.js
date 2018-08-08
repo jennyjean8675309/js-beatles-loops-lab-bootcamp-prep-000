@@ -17,6 +17,12 @@ function johnLennonFacts(facts){
 
 //Because the last index(3) is one less than the length(4), using (i < facts.length) works as the condition.
 
-
+function iLoveTheBeatles(number){
+  var love = [];
+  do {
+    love.push("I love the Beatles!");
+    number++;
+  } while (number < 15);
+}
 
 
